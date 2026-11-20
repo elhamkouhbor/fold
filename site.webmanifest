@@ -1,0 +1,11 @@
+{
+  "name": "Elham Fold Studio",
+  "short_name": "Elham",
+  "description": "Fold packaging dielines in 3D, entirely in your browser.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0f1115",
+  "theme_color": "#4f46e5",
+  "icons": [{ "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}

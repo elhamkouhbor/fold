@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Elham Fold Studio</title>
+    <meta name="description" content="Import a packaging dieline SVG, detect panels and creases, fold it in 3D with real board materials and artwork, edit the assembly sequence and save portable projects. Runs entirely in your browser." />
+    <meta name="application-name" content="Elham Fold Studio" />
+    <meta name="theme-color" content="#4f46e5" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0f1115" media="(prefers-color-scheme: dark)" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="icon" type="image/svg+xml" href="/fold/favicon.svg" />
+    <link rel="apple-touch-icon" href="/fold/favicon.svg" />
+    <link rel="manifest" href="/fold/site.webmanifest" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Elham Fold Studio" />
+    <meta property="og:title" content="Elham Fold Studio" />
+    <meta property="og:description" content="From flat dieline to folded package — in your browser." />
+    <!-- Theme before first paint (no white flash in dark mode). No external fonts or scripts. -->
+    <script>
+      try {
+        var t = localStorage.getItem("elham.theme");
+        var d = t === "dark" || (t !== "light" && matchMedia("(prefers-color-scheme: dark)").matches);
+        document.documentElement.dataset.theme = d ? "dark" : "light";
+        document.documentElement.style.colorScheme = d ? "dark" : "light";
+      } catch (e) {}
+    </script>
+    <style>
+      html, body, #root { height: 100%; margin: 0; }
+      html[data-theme="dark"] body { background: #0f1115; color: #e9ebf0; }
+      .boot { min-height: 100%; display: grid; place-items: center; font: 500 15px/1.5 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color: #5b6170; }
+      .boot img { width: 44px; height: 44px; display: block; margin: 0 auto 12px; }
+    </style>
+    <script type="module" crossorigin src="/fold/assets/index-BTtZtgaC.js"></script>
+    <link rel="stylesheet" crossorigin href="/fold/assets/index-BGjdqUlO.css">
+  </head>
+  <body>
+    <div id="root">
+      <div class="boot"><div><img src="/fold/favicon.svg" alt="" />Elham Fold Studio</div></div>
+    </div>
+    <noscript>
+      <p style="font-family:system-ui,sans-serif;max-width:640px;margin:24px auto;padding:0 24px">
+        Elham Fold Studio runs entirely in your browser and needs JavaScript for the 2D/3D workspace.
+      </p>
+    </noscript>
+  </body>
+</html>
