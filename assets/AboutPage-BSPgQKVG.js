@@ -1,4 +1,4 @@
-import{u as a,j as e,h as r,t as n,i as c,b as t,B as s}from"./index-Cg60BGwA.js";const l=`MIT License
+import{u as a,j as e,h as r,t as n,i as c,b as t,B as s}from"./index-BQ9P46sJ.js";const l=`MIT License
 
 Copyright (c) 2026 Pradeep Siddappa
 
@@ -38,6 +38,11 @@ The following repositories were inspected as design references only; no source w
 - packbox \`3b1b33e34500e1fe615dbfe2d486e818696c0c78\` (MIT)
 - OpenBox3D \`d4c6ff6ee6f06cd53671facc42d49d941c8e6934\` (MIT)
 - dieline-to-3d-box \`70f56ebb51b92da094bdfb56923c67831c447480\` (no identifiable reuse license; conceptual reference only)
+
+## Khronos PBR Neutral tone mapping
+
+\`src/ui/import/neutralToneMapping.ts\` implements the Khronos PBR Neutral tone-mapping formula
+(KhronosGroup/ToneMapping, Apache-2.0), as also shipped in three.js r162+ (MIT) as \`NeutralToneMapping\`.
 
 ## Development-only dependencies
 
