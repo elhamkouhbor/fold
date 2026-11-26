@@ -1,4 +1,4 @@
-import{u as a,j as e,h as r,t as n,i as c,b as s,B as o}from"./index-CzRFJ1pM.js";const l=`MIT License
+import{u as a,j as e,h as r,t as n,i as c,b as s,B as o}from"./index-CQt1vRl4.js";const l=`MIT License
 
 Copyright (c) 2026 Pradeep Siddappa
 
